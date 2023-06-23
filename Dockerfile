@@ -1,8 +1,8 @@
-#FROM tomcat:8.0.20-jre8
-#COPY target/*.war /usr/local/tomcat/webapps/cohort7.war
-
-FROM tomcat:9.0.76-jre11
+FROM tomcat:8.0.20-jre8
 COPY target/*.war /usr/local/tomcat/webapps/cohort7.war
+
+#FROM tomcat:9.0.76-jre11
+#COPY target/*.war /usr/local/tomcat/webapps/cohort7.war
 
 
 #FROM maven:3-jdk-11 as builder
